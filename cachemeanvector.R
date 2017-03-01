@@ -14,9 +14,10 @@ makeVector <- function(x = numeric()) {
         get <- function() x
         setmean <- function(mean) m <<- mean
         getmean <- function() m
-        list(set = set, get = get,
-             setmean = setmean,
-             getmean = getmean)
+        list(set = set,          # gives the name 'set' to the set() function defined above
+             get = get,          # gives the name 'get' to the get() function defined above
+             setmean = setmean,  # gives the name 'setmean' to the setmean() function defined above
+             getmean = getmean)  # gives the name 'getmean' to the getmean() function defined above
 }
 
 # The following function calculates the mean of the special "vector" created with the above function. 
