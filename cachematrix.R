@@ -1,3 +1,4 @@
+## A pair of functions, makeCacheMatrix() and cacheSolve(), cache the inverse of a matrix.
 
 ## makeCacheMatrix: This function creates a special "matrix" object that can cache its inverse
 
