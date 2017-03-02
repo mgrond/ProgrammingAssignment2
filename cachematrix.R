@@ -2,6 +2,12 @@
 
 ## A pair of functions, makeCacheMatrix() and cacheSolve(), cache the inverse of a matrix.
 
+## Test input
+# m1 <- matrix(c(1/2, -1/4, -1, 3/4), nrow = 2, ncol = 2)
+# a <- makeCacheMatrix(m1)
+# cacheSolve(a)
+# cacheSolve(a)
+
 ## makeCacheMatrix: This function creates a special "matrix" object that can cache its inverse
 
 # makeCacheMatrix creates a special "vector", which is really a list containing a function to
